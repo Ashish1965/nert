@@ -6,11 +6,6 @@ import { SiTorbrowser } from "react-icons/si";
 export default function Home() {
   return (
     <section>
-      <div className="flex justify-start md:justify-center">
-        <div className="md:w-1/3 w-1/2">
-        <img src="asserts/logo.png" alt="" />
-        </div>
-      </div>
       <div className="flex md:flex-row gap-x-5 flex-col mx-5 justify-center items-center">
       <div className="md:w-1/3">
           <img src="asserts/1.png" alt="" />
@@ -38,17 +33,7 @@ export default function Home() {
         <p className="text-sm font-semibold text-center mt-5">CHEMICALS & PROCESS <span className="text-red-500">|</span> POWER <span className="text-red-500">|</span> WATER & WASTE WATER <span className="text-red-500">|</span> OILS & GAS <span className="text-red-500">|</span> PHARMA <span className="text-red-500">|</span> SUGARS & DISTILLERIES <span className="text-red-500">|</span> PAPER & PULP <span className="text-red-500">|</span> MARINE & DEFENCE <span className="text-red-500">|</span> METAL & MINING</p>
         <p className="text-sm font-semibold text-center mt-5">FOOD & BEVERAGE <span className="text-red-500">|</span> PETROCHEMICAL & REFINERIES <span className="text-red-500">|</span> SOLAR <span className="text-red-500">|</span> BUILDING <span className="text-red-500">|</span> HVAC <span className="text-red-500">|</span> FIRE FIGHTING <span className="text-red-500">|</span> AGRICULTURE & RESIDENTIAL</p>
       </div>
-      <div className="flex flex-col md:flex-row w-full h-28 bg-red-500 justify-center">
-        <div className="md:w-1/3 flex flex-row justify-center md:items-center md:h-full">
-        <a href="/" className="flex flex-row gap-3"><IoCallOutline className="bg-white rounded-full w-6 h-6"/><p className="text-white">Toll free 1800 200 1234</p></a>
-        </div>
-        <div className="md:w-1/3 flex flex-row justify-center md:items-center md:h-full">
-        <a href="/" className="flex flex-row gap-3"><FaFacebook className="bg-white rounded-full w-6 h-6"/><p className="text-white">www.facebook.com/cripumps</p></a>
-        </div>
-        <div className="md:w-1/3 flex flex-row justify-center md:items-center md:h-full">
-        <a href="" className="flex flex-row gap-3"><SiTorbrowser className="bg-white rounded-full w-6 h-6"/><p className="text-white">www.crigroups.com</p></a>
-        </div>
-      </div>
+      
     </section>
   );
 }
