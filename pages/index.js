@@ -23,7 +23,7 @@ export default function Home() {
       <div className="flex justify-center items-center p-5">
         <p className="text-sm font-semibold">INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.</p>
       </div>
-      <div className="px-20">
+      <div className="md:px-20 px-6">
         <img src="asserts/3.png" alt="" />
         <p className="text-center text-sm p-5">Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors</p>
         <hr className="border-y-2px mx-20 border-red-600" />
